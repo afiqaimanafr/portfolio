@@ -229,16 +229,16 @@
         </div>
         <div class="column right">
           <div class="text">Message me</div>
-          <form class="contact-form" action="https://formspree.io/f/xvodzyoe" method="POST" id="my-form">
+          <form class="contact-form" action="mailto:aaafr98@gmail.com" method="POST" enctype="text/plain">
             <div class="fields">
               <div class="field name">
                 <label for="Name">
-                  <input type="text" name="Name" class="fullname" placeholder="Name">
+                  <input type="text" name="Name" class="fullname" placeholder="Name" required>
                 </label>
               </div>
               <div class="field email">
                 <label for="Email">
-                  <input type="text" name="_replyto" class="email-input" placeholder="Email">
+                  <input type="email" name="Email" class="email-input" placeholder="Email" required>
                 </label>
               </div>
             </div>
@@ -249,7 +249,7 @@
             </div>
             <div class="field textarea">
               <label for="Message">
-                <textarea class="message" name="Message" cols="30" rows="10" placeholder="Message"></textarea>
+                <textarea class="message" name="Message" cols="30" rows="10" placeholder="Message" required></textarea>
               </label>
             </div>
             <div class="button-area">
