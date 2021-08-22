@@ -275,12 +275,12 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
+.services, .contact{
     color:#fff;
     background: #111;
 }
 .services .title::before,
-.teams .title::before{
+.contact .title::before{
     background: #fff;
 }
 .services .title::after,
@@ -396,7 +396,7 @@ section .title::after{
 }
 
 /* teams section styling */
-.teams .title::after{
+/* .teams .title::after{
     content: "who with me";
 }
 .teams .carousel .card{
@@ -456,7 +456,7 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
-}
+} */
 
 /* contact section styling */
 .contact .title::after{
@@ -492,7 +492,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #fff;
 }
 .contact .right form .fields{
     display: flex;
@@ -567,9 +567,9 @@ section .title::after{
 }
 /* footer section styling */
 footer{
-    background: #111;
+    /* background: #111; */
     padding: 15px 23px;
-    color: #fff;
+    color: crimson;
     text-align: center;
 }
 footer span a{
@@ -578,7 +578,7 @@ footer span a{
 }
 footer span a:hover{
     text-decoration: underline;
-    color: #fff;
+    color: red;
 }
 
 
